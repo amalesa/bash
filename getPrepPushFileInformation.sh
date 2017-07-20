@@ -12,7 +12,7 @@ if [[ $UN_PUSHED_FILES_STRING == *".js"* ]]
 then
 echo "run karma test"
 fi
-if [[ $UN_PUSHED_FILES_STRING != *".scss"* ]] 
+if [[ $UN_PUSHED_FILES_STRING == *".scss"* ]] 
 then
 echo "build scss"
 fi
